@@ -1,3 +1,7 @@
+<%@page import="BeanClass.Login"%>
+<%
+    Login login = (Login)session.getAttribute("current-user");
+%>
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +16,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Energym</title>
+  <title>Rising Star Academy</title>
 
   <!<!-- bootstrap 4 css and javascript  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -47,7 +51,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" />
             <span>
-              Energym
+              rising star academy
             </span>
           </a>
           <div class="contact_nav" id="">
@@ -67,7 +71,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="service.html">
                   <img src="images/envelope.png" alt="" />
-                  <span>demo@gmail.com</span>
+                  <span>rsa@gmail.com</span>
                 </a>
               </li>
             </ul>
@@ -91,27 +95,38 @@
               <div class="d-flex  flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                   <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item active">
+                  <li class="nav-item">
                       <a class="nav-link" href="about.html">About </a>
                   </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                    </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                </li>
-                  <li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="services.jsp">Services</a>
+                  </li>
+         
+                  <li class="nav-item ">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                  <% 
+                      if(login == null)
+                      {
+                  %>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="login.jsp">Login</a>
+                  </li>
+                  <% 
+                      }else{
+                  %>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.jsp">Welcome <%=login.getFull_name()%></a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="LogoutServlet">Logout</a>
+                  </li>
+                  
+                  <%}%>
+                   <li class="nav-item">
+                    <a class="nav-link" href="Coach.jsp">Coaches</a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">

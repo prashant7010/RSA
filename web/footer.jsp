@@ -53,7 +53,7 @@
    <div class="row">
      <div class="col-md-3">
        <h6>
-         About Energym
+         About Rising Star Acedmy
        </h6>
        <p>
          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -66,19 +66,16 @@
        </h6>
        <ul>
          <li class=" active">
-           <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+           <a class="" href="index.jsp">Home <span class="sr-only">(current)</span></a>
          </li>
          <li class="">
-           <a class="" href="about.html">About </a>
+           <a class="" href="about.jsp">About </a>
          </li>
          <li class="">
-           <a class="" href="service.html">Services </a>
+           <a class="" href="service.jsp">Services </a>
          </li>
          <li class="">
-           <a class="" href="#contactSection">Contact Us</a>
-         </li>
-         <li class="">
-           <a class="" href="#">Login</a>
+           <a class="" href="login.jsp">Login</a>
          </li>
        </ul>
      </div>
@@ -121,7 +118,7 @@
        <div class="info_link-box">
          <a href="">
            <img src="images/location-white.png" alt="">
-           <span> No.123, loram ipusm</span>
+           <span> House No : 123, Shantinagar Society, Ahmedabad, Pin : 382140</span>
          </a>
          <a href="">
            <img src="images/call-white.png" alt="">
@@ -129,7 +126,7 @@
          </a>
          <a href="">
            <img src="images/mail-white.png" alt="">
-           <span> demo123@gmail.com</span>
+           <span> rsa@gmail.com</span>
          </a>
        </div>
        <div class="info_social">
@@ -161,14 +158,11 @@
 
 <!-- end info section -->
 
-
-
-
 <!-- footer section -->
 <section class="container-fluid footer_section ">
  <p>
-   &copy; 2019 All Rights Reserved. Design by
-   <a href="https://html.design/">Free Html Templates</a>
+   &copy; 2023 All Rights Reserved. Design by Rising Star Acedmy
+   <a href="#"></a>
  </p>
 </section>
 <!-- footer section -->

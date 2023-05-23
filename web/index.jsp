@@ -35,7 +35,7 @@
    
        <%@include file="header.jsp" %>
        
-               <!<!--  start Bootsrap 4 slider  -->       
+<!<!--  start Bootsrap 4 slider  -->       
  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -114,12 +114,12 @@
       </div>
       <div class="service_container">
         <div class="box">
-          <img src="images/s-1.jpg" alt="">
+          <img src="img/indoor.jpg" alt="">
           <h6 class="visible_heading">
            Indoor Services
           </h6>
           <div class="link_box">
-            <a href="">
+            <a href="Indoor.jsp">
               <img src="images/link.png" alt="">
             </a>
             <h6>
@@ -128,12 +128,12 @@
           </div>
         </div>
         <div class="box">
-          <img src="images/s-2.jpg" alt="">
+          <img src="img/outdoor.jpg" alt="">
           <h6 class="visible_heading">
             Outdoor Services
           </h6>
           <div class="link_box">
-            <a href="">
+            <a href="Outdoor.jsp">
               <img src="images/link.png" alt="">
             </a>
             <h6>
@@ -142,30 +142,30 @@
           </div>
         </div>
         <div class="box">
-          <img src="images/s-3.jpg" alt="">
+          <img src="img/health.jpg" alt="">
           <h6 class="visible_heading">
-            Summer Camp
+            HEALTH SERVICES
           </h6>
           <div class="link_box">
-            <a href="">
+            <a href="HealthServices.jsp">
               <img src="images/link.png" alt="">
             </a>
             <h6>
-              Summer Camp
+             HEALTH SERVICES
             </h6>
           </div>
         </div>
         <div class="box">
-          <img src="images/s-4.jpg" alt="">
+          <img src="img/specialservices.jpg" alt="">
           <h6 class="visible_heading">
-            HEALTH
+            SPECIAL SERVICES
           </h6>
           <div class="link_box">
-            <a href="">
+            <a href="Specialservice.jsp">
               <img src="images/link.png" alt="">
             </a>
             <h6>
-              HEALTH
+           SPECIAL SERVICES
             </h6>
           </div>
         </div>
@@ -320,88 +320,11 @@
 
   <!-- result section -->
 
-  <section class="result_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/result-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-5">
-          <div class="detail-box">
-            <h2>
-              BUILT TO BRING <br>
-              BEST RESULTS
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            </p>
-            <a href="">
-              Get A Quote
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- end result section -->
 
 
   <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          <span>
-            Get In Touch
-          </span>
-        </h2>
-      </div>
-      <div class="layout_padding2-top">
-        <div class="row">
-          <div class="col-md-6 ">
-            <form action="">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <input type="text" placeholder="Name" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                  <div class="mt-5">
-                    <input type="text" placeholder="Message" />
-                  </div>
-                  <div class="mt-5">
-                    <button type="submit">
-                      Send
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-6">
-            <div class="map_container">
-              <div class="map-responsive">
-                <iframe
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
-                  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   <!-- end contact section -->
 
 
